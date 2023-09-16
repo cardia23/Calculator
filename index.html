@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="display" value="" />
+      <div class="keypad">
+        <button class="operator" id="clear">C</button>
+        <button class="operator" id="clearCE">CE</button>
+        <button class="operator btn" id="divide" data-value=" / ">/</button>
+        <button id="seven" class="btn" data-value="7">7</button>
+        <button id="eight" class="btn" data-value="8">8</button>
+        <button id="nine" class="btn" data-value="9">9</button>
+        <button class="operator btn" id="multiply" data-value=" * ">*</button>
+        <button id="four" class="btn" data-value="4">4</button>
+        <button id="five" class="btn" data-value="5">5</button>
+        <button id="six" class="btn" data-value="6">6</button>
+        <button class="operator btn" id="subtract" data-value=" - ">-</button>
+        <button id="one" class="btn" data-value="1">1</button>
+        <button id="two" class="btn" data-value="2">2</button>
+        <button id="three" class="btn" data-value="3">3</button>
+        <button class="operator btn" id="add" data-value=" + ">+</button>
+        <button id="zero" class="btn" data-value="0">0</button>
+        <button class="operator" id="equals">=</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.0.0/math.min.js"></script>
+  </body>
+</html>
